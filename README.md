@@ -22,7 +22,7 @@ Esta carpeta contiene algunos scripts que fueron utilizados antes o después del
 Los scripts "image_separation" e "image_split" fueron ejecutados localmente utilizando el dataset completo de AVA con el fin de extraer el subconjunto que serviría para la clasificación de estilos. Una vez obtenido dicho subconjunto, se subió a Google Drive, y el resto del proyecto fue trabajado completamente en la nube.
 
 ## Carpeta modelos_entrenamiento
-Esta carpeta contiene el entrenamiento de los modelos utilizados en el proyecto. A continuación se describe la nomnenclatura utilizada en el nombre de los notebooks para identificar de mejor manera a que modelo corresponde cada uno:
+Esta carpeta contiene los notebooks correspondientes al entrenamiento de cada uno de los modelos utilizados. A continuación se describe la nomenclatura utilizada en el nombre de los notebooks para identificar de mejor manera a que modelo y configuración corresponde cada uno:
 * Primero se comienza con el nombre del modelo.
 * La palabra "dropout" indica que el modelo fue modificado para agregarle algunas capas extras de dropout. De no tenerla, se utilizó el modelo tal cual.
 * La palabra "Imagenet" indica que el modelo utilizó los pesos aprendidos del dataset Imagenet, es decir, utilizó transfer learning. De no tenerla, el modelo fue entrenado desde cero.
