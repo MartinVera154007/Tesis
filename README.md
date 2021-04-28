@@ -30,5 +30,7 @@ Esta carpeta contiene los notebooks correspondientes al entrenamiento de cada un
 * La palabra "balanceado" indica que el modelo fue entrenado con el dataset balanceado. De no tenerla, se utilizo el dataset sin aumentar.
 * Aquellos modelos que no indiquen un número de clases fueron entrenados para clasificar las 14 clases del dataset AVA.
 
+Los modelos correspondientes ya entrenados se pueden descargar de: https://drive.google.com/drive/folders/1fqek5FBk0RzMBkVe3o1QxCRvZdJm7hEK?usp=sharing
+
 ## Nota
 **Todos los modelos fueron creados y entrenados utilizando el entorno en la nube de Google Colab. Por esta razón podrá encontrar algunos comandos de terminal Linux que son utilizados para cargar los datos a las sesiones del servicio Colab, y/o guardar datos nuevos creados en Google Drive. En caso de que se quieran replicar los experimentos aquí presentados en un entorno diferente considere hacer los ajustes necesarios.**
