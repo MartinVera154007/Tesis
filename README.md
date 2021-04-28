@@ -11,7 +11,7 @@ Los subconjuntos de AVA utilizados para este proyecto son:
 
 
 ## Carpeta modelos_entrenamiento
-Esta carpeta contiene el entrenamiento de los modelos utilizados en el proyecto. A continuación se describe la nomneclatura utilizada en el nombre de los notebooks para identificar de mejor manera a que modelo corresponde cada uno:
+Esta carpeta contiene el entrenamiento de los modelos utilizados en el proyecto. A continuación se describe la nomnenclatura utilizada en el nombre de los notebooks para identificar de mejor manera a que modelo corresponde cada uno:
 * Primero se comienza con el nombre del modelo.
 * La palabra "dropout" indica que el modelo fue modificado para agregarle algunas capas extras de dropout. De no tenerla, se utilizó el modelo tal cual.
 * La palabra "Imagenet" indica que el modelo utilizó los pesos aprendidos del dataset Imagenet, es decir, utilizó transfer learning. De no tenerla, el modelo fue entrenado desde cero.
