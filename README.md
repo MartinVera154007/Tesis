@@ -2,7 +2,7 @@
 Red Neuronal Convolucional Para la Clasificación de Estilos Fotográficos
 
 ## Descripción
-Proyecto en el que se implementó una red neuronal para la clasificar 14 estilos fotográficos. El dataset utilizado (AVA), se puede encontrar en https://github.com/mtobeiyf/ava_downloader. 
+Proyecto en el que se implementó una red neuronal para la clasificar 14 estilos fotográficos. El dataset utilizado (AVA) se puede obtener de https://github.com/mtobeiyf/ava_downloader. 
 
 Los subconjuntos de AVA utilizados para este proyecto son:
  * ava (11,0253 imágenes): conjunto de imágenes separadas por estilo y en los sets de train, test y valid. https://drive.google.com/file/d/1CiMlIl6SikzJZigeBa3RjDSq3sTilQ8z/view?usp=sharing
@@ -28,3 +28,6 @@ Esta carpeta contiene algunos scripts que fueron utilizados antes o después del
 * Augment Images to Get Balance: Similar al anterior pero en este caso solo se hace el aumento en aquellas clases que contengan menos de 1000 imágenes para alcanzar dicha cifra.
 * Model testing: Se utiliza para probar modelos ya entrenados y calcular las métricas necesarias.
 * Interface: Interfaz de consola para probar una modelo ya entrenado. Revise como entrada una imagen y devuelve como salida el estilo de la imagen.
+
+## Nota
+* **Todos los modelos fueron creados y entrenados utilizando el entorno en la nube de Google Colab. Por esta razón podrá encontrar algunos comandos de terminal Linux que son utilizados para cargar los datos a las sesiones del servicio Colab, y/o guardar datos nuevos creados en Google Drive. En caso de que se quieran replicar los experimentos aquí presentados en un entorno diferente considere hacer los ajustes necesarios**
