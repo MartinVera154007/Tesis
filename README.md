@@ -29,5 +29,7 @@ Esta carpeta contiene algunos scripts que fueron utilizados antes o después del
 * Model testing: Se utiliza para probar modelos ya entrenados y calcular las métricas necesarias.
 * Interface: Interfaz de consola para probar una modelo ya entrenado. Revise como entrada una imagen y devuelve como salida el estilo de la imagen.
 
+Los scripts "image_separation" e "image_split" fueron ejecutados localmente utilizando el dataset completo de AVA con el fin de extraer el subconjunto que serviría para la clasificación de estilos. Una vez obtenido dicho subconjunto, se subió a Google Drive, y el resto del proyecto fue trabajado completamente en la nube.
+
 ## Nota
 **Todos los modelos fueron creados y entrenados utilizando el entorno en la nube de Google Colab. Por esta razón podrá encontrar algunos comandos de terminal Linux que son utilizados para cargar los datos a las sesiones del servicio Colab, y/o guardar datos nuevos creados en Google Drive. En caso de que se quieran replicar los experimentos aquí presentados en un entorno diferente considere hacer los ajustes necesarios.**
