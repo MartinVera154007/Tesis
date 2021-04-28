@@ -30,4 +30,4 @@ Esta carpeta contiene algunos scripts que fueron utilizados antes o después del
 * Interface: Interfaz de consola para probar una modelo ya entrenado. Revise como entrada una imagen y devuelve como salida el estilo de la imagen.
 
 ## Nota
-* **Todos los modelos fueron creados y entrenados utilizando el entorno en la nube de Google Colab. Por esta razón podrá encontrar algunos comandos de terminal Linux que son utilizados para cargar los datos a las sesiones del servicio Colab, y/o guardar datos nuevos creados en Google Drive. En caso de que se quieran replicar los experimentos aquí presentados en un entorno diferente considere hacer los ajustes necesarios**
+**Todos los modelos fueron creados y entrenados utilizando el entorno en la nube de Google Colab. Por esta razón podrá encontrar algunos comandos de terminal Linux que son utilizados para cargar los datos a las sesiones del servicio Colab, y/o guardar datos nuevos creados en Google Drive. En caso de que se quieran replicar los experimentos aquí presentados en un entorno diferente considere hacer los ajustes necesarios.**
