@@ -6,8 +6,8 @@ Proyecto en el que se implementó una red neuronal para la clasificar 14 estilos
 
 Los subconjuntos de AVA utilizados para este proyecto son:
  * ava (11,253 imágenes): conjunto de imágenes separadas por estilo y en los sets de train, test y valid. https://drive.google.com/file/d/1CiMlIl6SikzJZigeBa3RjDSq3sTilQ8z/view?usp=sharing
- * ava_augmented_full (33,759 imágenes): similar a ava, pero con aumento de datos (proyección horizontal y vertical de cada imagen). https://drive.google.com/file/d/1-3b42pNKVMP6d2fQKcvNyBw4j7Wz0TH8/view?usp=sharing
- * ava_augmented_balanced (14,656 imágenes): similar al anterior, pero el aumento solo fue realizado de tal manera que las clases que tuvieran menos de 1000 muestras alcanzaran dicha cifra. https://drive.google.com/file/d/1HR4VQ-CIeEr_hHc04k1f5zD2DxAoftzc/view?usp=sharing
+ * ava_augmented_full (33,759 imágenes): similar a ava, pero con aumento de datos (proyección horizontal y vertical de cada imagen). https://drive.google.com/file/d/1hxQlX5-2wRplp9dtguFrpSuzrF3U-Mrt/view?usp=sharing
+ * ava_augmented_balanced (14,656 imágenes): similar al anterior, pero el aumento solo fue realizado de tal manera que las clases que tuvieran menos de 1000 muestras alcanzaran dicha cifra. https://drive.google.com/file/d/1LXIPsJG0Cp132OY_CIPCRUzdvn4AaMYJ/view?usp=sharing
 
 ## Carpeta helpers
 Esta carpeta contiene algunos scripts que fueron utilizados antes o después del entrenamiento de los modelos.
