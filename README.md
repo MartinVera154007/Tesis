@@ -17,7 +17,7 @@ Esta carpeta contiene algunos scripts que fueron utilizados antes o después del
 * Augment Images: Aumenta las imágenes del dataset haciendoles una proyección sobre el eje horizontal y vertical a cada imagen.
 * Augment Images to Get Balance: Similar al anterior pero en este caso solo se hace el aumento en aquellas clases que contengan menos de 1000 imágenes para alcanzar dicha cifra.
 * Model testing: Se utiliza para probar modelos ya entrenados y calcular las métricas necesarias.
-* Interface: Interfaz de consola para probar una modelo ya entrenado. Revise como entrada una imagen y devuelve como salida el estilo de la imagen.
+* Interface: Interfaz de consola para probar una modelo ya entrenado. Recibe como entrada una imagen y devuelve como salida el estilo de la imagen.
 * kfolds: Implementación de 10 folds cross validation.
 
 Los scripts "image_separation" e "image_split" fueron ejecutados localmente utilizando el dataset completo de AVA con el fin de extraer el subconjunto que serviría para la clasificación de estilos. Una vez obtenido dicho subconjunto, se subió a Google Drive, y el resto del proyecto fue trabajado completamente en la nube.
